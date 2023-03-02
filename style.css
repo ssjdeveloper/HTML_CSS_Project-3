@@ -1,0 +1,94 @@
+/* reset defalt  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* bady image  */
+body{
+   
+    background-image: url(./assest/bg.png);
+    background-size: cover;
+    
+    
+}
+
+/* navigation bar  */
+nav{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    gap: 80px;
+    
+}
+
+
+
+.sign{
+    font-size: 40px;
+    opacity: 50%; 
+    margin: -300px;
+}
+.navigation{
+    display: flex;
+   
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+li{
+    display: flex;
+    list-style: none;
+    justify-content: start;
+    /* align-items: center; */
+    padding: 10px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ /* main section  */
+.main_section{
+    display: flex;
+    color: white;
+    /* font-size: 25px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+  
+}
+h1{
+    font-size: 50px;
+    /* padding: 0px; */
+    font-weight: 1000;
+}
+
+p{
+    font-size: 20px;
+
+}
+
+/* button design  */
+
+button{
+    background-color: rgb(239, 43, 239);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+.btn{
+    margin: 20px;
+}
